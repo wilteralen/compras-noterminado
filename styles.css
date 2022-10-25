@@ -1,0 +1,87 @@
+body 
+{
+    margin: 0px;
+    background-color: rgb(123, 180, 230);
+    font-family: 'Fuzzy Bubbles', cursive;
+
+}
+
+.button-add {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.page-nav {
+    background-color: rgba(191, 52, 52, 0.537);
+    border: 1px solid black
+    position: relative;
+}
+.page-nav h1 {
+    margin: 20px;
+
+}
+
+.button-checkout {
+    background-color: aliceblue;
+    color: rgb(17, 12, 12);
+    border: 2px solid green;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+
+}
+
+.button-checkout:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: : space-evenly;
+    border: ipx solid red;
+}
+
+
+.product-container{
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 black;
+    background-color: white;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 0 rgba(186, 132, 132, 0.537);
+
+}
+
+.product-container img {
+    width: 300px;
+}
+.product-container h1 {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.button-add {
+    
+    background-color: aliceblue;
+    color: rgb(17, 12, 12);
+    border: 2px solid green;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+
+  }
+  
+  .button-add:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+ 
